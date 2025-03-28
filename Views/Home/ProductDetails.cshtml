@@ -1,0 +1,74 @@
+﻿
+
+    <div class="container">
+        <div class="product-details">
+            <img id="productImage" src="" alt="Product Image">
+            <div class="details">
+                <h2 id="productTitle"></h2>
+                <p id="productAuthor"></p>
+                <p id="productCategory"></p>
+                <p id="productLanguage"></p>
+                <p id="productPageCount"></p>
+                <p id="productPrice"></p>
+                <p id="productDescription"></p>
+                <a id="productPdf" href="" target="_blank">📖 Read PDF</a>
+
+                <div class="actions">
+                    <button id="addToCart">🛒 Add to Cart</button>
+                    <button id="buyNow">💳 Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .product-details {
+            display: flex;
+            gap: 20px;
+        }
+
+            .product-details img {
+                width: 300px;
+                height: auto;
+                border-radius: 8px;
+            }
+
+        .details {
+            flex: 1;
+        }
+
+        .actions {
+            margin-top: 20px;
+        }
+
+            .actions button {
+                padding: 10px 15px;
+                margin-right: 10px;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+            }
+
+        #addToCart {
+            background: orange;
+            color: white;
+        }
+
+        #buyNow {
+            background: green;
+            color: white;
+        }
+    </style>
