@@ -39,17 +39,16 @@
                     </select>
                 </div>
 
-                <!-- Language -->
                 <div class="col-md-6 mb-3">
                     <label class="form-label">Language <span class="text-danger">*</span></label>
-                    <select multiple class="form-control" id="language" name="Language">
+                    <select class="form-control selectpicker" id="language" name="Language" multiple data-live-search="true">
                         <option value="English">English</option>
                         <option value="Spanish">Spanish</option>
                         <option value="French">French</option>
                         <option value="German">German</option>
                     </select>
-                    <small class="text-muted">Hold Ctrl (Windows) / Cmd (Mac) to select multiple.</small>
                 </div>
+
 
                 <!-- Stock Quantity -->
                 <div class="col-md-6 mb-3">
@@ -102,3 +101,4 @@
 <div id="toastMessage" class="toast position-fixed top-50 start-50 translate-middle p-3 bg-success text-white" style="display:none;">
     Product added successfully!
 </div>
+
